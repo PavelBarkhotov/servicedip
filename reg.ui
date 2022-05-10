@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>874</width>
+    <height>514</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>70</y>
+     <width>341</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QWidget#widget{
+background-color:  rgb(229, 229, 229);
+border-radius: 22px;
+}</string>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>50</y>
+      <width>261</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-family: Roboto;
+font-size: 28px;</string>
+    </property>
+    <property name="text">
+     <string>Регистрация</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="reg">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>260</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Roboto</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	background: #7977EF;
+	border: 1px solid rgba(255, 255, 255, 0.77);
+	box-sizing: border-box;
+	border-radius: 15px;
+	font-family: Roboto;
+	font-size: 14px;
+}
+
+QPushButton:hover{
+	background: rgb(129, 127, 255);
+}
+
+QPushButton:pressed{
+	background: rgb(108, 106, 213);
+	color: rgb(77, 77, 77);
+}</string>
+    </property>
+    <property name="text">
+     <string>Зарегистрироваться</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="emailfield">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>100</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	box-sizing: border-box;
+	border-radius: 15px;
+	border: 1px solid #000000;
+	background: #F3F3F3;
+	font-family: Roboto;
+	font-size: 14px;
+	color: rgba(0, 0, 0);
+}
+
+QLineEdit:hover{
+	border: 1px solid rgb(129, 127, 255);
+}
+
+QLineEdit:focus{
+	border: 2px solid rgb(105, 103, 207)
+}
+</string>
+    </property>
+    <property name="placeholderText">
+     <string>Email</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="passwordfield">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>140</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	box-sizing: border-box;
+	border-radius: 15px;
+	border: 1px solid #000000;
+	background: #F3F3F3;
+	font-family: Roboto;
+	font-size: 14px;
+	color: rgba(0, 0, 0);
+}
+
+QLineEdit:hover{
+	border: 1px solid rgb(129, 127, 255);
+}
+
+QLineEdit:focus{
+	border: 2px solid rgb(105, 103, 207)
+}
+</string>
+    </property>
+    <property name="placeholderText">
+     <string>Password</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="passerror">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>220</y>
+      <width>151</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="passwordfield_check">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>180</y>
+      <width>161</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit{
+	box-sizing: border-box;
+	border-radius: 15px;
+	border: 1px solid #000000;
+	background: #F3F3F3;
+	font-family: Roboto;
+	font-size: 14px;
+	color: rgba(0, 0, 0);
+}
+
+QLineEdit:hover{
+	border: 1px solid rgb(129, 127, 255);
+}
+
+QLineEdit:focus{
+	border: 2px solid rgb(105, 103, 207)
+}
+</string>
+    </property>
+    <property name="placeholderText">
+     <string>Check_password</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

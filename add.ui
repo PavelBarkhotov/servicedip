@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QPushButton" name="confirm">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>230</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background: rgba(121, 119, 239, 0.6);
+border: 1px solid rgba(255, 255, 255, 0.77);
+box-sizing: border-box;
+border-radius: 15px;
+font-family: Roboto;
+font-size: 14px;
+}
+
+QPushButton:hover{
+	background: rgb(129, 127, 255);
+}
+
+QPushButton:pressed{
+	background: rgb(108, 106, 213);
+	color: rgb(77, 77, 77);
+}</string>
+   </property>
+   <property name="text">
+    <string>Добавить</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="surname">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>30</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextEdit{
+	box-sizing: border-box;
+	border-radius: 15px;
+	border: 1px solid #000000;
+	background: #F3F3F3;
+	font-family: Roboto;
+	font-size: 14px;
+	color: rgba(0, 0, 0);
+}
+
+QTextEdit:hover{
+	border: 1px solid rgb(129, 127, 255);
+}
+
+QTextEdit:focus{
+	border: 2px solid rgb(105, 103, 207)
+}
+
+</string>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Roboto'; font-size:14px; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-family:'MS Shell Dlg 2'; font-size:8.25pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="placeholderText">
+    <string>Фамилия</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="name">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>70</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextEdit{
+	box-sizing: border-box;
+	border-radius: 15px;
+	border: 1px solid #000000;
+	background: #F3F3F3;
+	font-family: Roboto;
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.10);
+}
+
+QTextEdit:hover{
+	border: 1px solid rgb(129, 127, 255);
+}
+
+QTextEdit:focus{
+	border: 2px solid rgb(105, 103, 207)
+}
+
+</string>
+   </property>
+   <property name="placeholderText">
+    <string>Имя</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="adname">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>110</y>
+     <width>201</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QTextEdit{
+	box-sizing: border-box;
+	border-radius: 15px;
+	border: 1px solid #000000;
+	background: #F3F3F3;
+	font-family: Roboto;
+	font-size: 14px;
+	color: rgba(0, 0, 0, 0.10);
+}
+
+QTextEdit:hover{
+	border: 1px solid rgb(129, 127, 255);
+}
+
+QTextEdit:focus{
+	border: 2px solid rgb(105, 103, 207)
+}
+
+</string>
+   </property>
+   <property name="placeholderText">
+    <string>Отчество</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

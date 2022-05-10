@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>659</width>
+    <height>671</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableWidget" name="raitingWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>40</y>
+     <width>251</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>741</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+border: 2px solid rgba(255, 255, 255, 0.77);
+box-sizing: border-box;
+border-radius: 20px;
+font-family: Roboto;</string>
+   </property>
+   <property name="horizontalScrollBarPolicy">
+    <enum>Qt::ScrollBarAlwaysOff</enum>
+   </property>
+   <property name="selectionBehavior">
+    <enum>QAbstractItemView::SelectRows</enum>
+   </property>
+   <property name="gridStyle">
+    <enum>Qt::SolidLine</enum>
+   </property>
+   <property name="sortingEnabled">
+    <bool>true</bool>
+   </property>
+   <attribute name="horizontalHeaderDefaultSectionSize">
+    <number>122</number>
+   </attribute>
+   <attribute name="horizontalHeaderMinimumSectionSize">
+    <number>45</number>
+   </attribute>
+   <attribute name="verticalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>ФИО</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Рейтинг</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QTableWidget" name="maxtableWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>300</y>
+     <width>591</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+border: 2px solid rgba(255, 255, 255, 0.77);
+box-sizing: border-box;
+border-radius: 20px;
+font-family: Roboto;</string>
+   </property>
+   <attribute name="verticalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>Положительные</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Отрицательные</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Время работы</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Время выполнения</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Попытки/заказы</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>420</y>
+     <width>611</width>
+     <height>241</height>
+    </rect>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>741</width>
+     <height>16777215</height>
+    </size>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+border: 2px solid rgba(255, 255, 255, 0.77);
+box-sizing: border-box;
+border-radius: 20px;
+font-family: Roboto;</string>
+   </property>
+   <attribute name="verticalHeaderVisible">
+    <bool>false</bool>
+   </attribute>
+   <column>
+    <property name="text">
+     <string>ФИО</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Положительные</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Отрицательные</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Время работы в компании</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Сред. время выполнения заказа</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Отношение попыток к заказам</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="backButton">
+   <property name="geometry">
+    <rect>
+     <x>490</x>
+     <y>40</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton{
+background: rgba(121, 119, 239, 0.6);
+border: 1px solid rgba(255, 255, 255, 0.77);
+box-sizing: border-box;
+border-radius: 17px;
+font-family: Roboto;
+font-size: 14px;
+}
+
+QPushButton:hover{
+	background: rgb(129, 127, 255);
+}
+
+QPushButton:pressed{
+	background: rgb(108, 106, 213);
+	color: rgb(77, 77, 77);
+}</string>
+   </property>
+   <property name="text">
+    <string>Вернуться</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
